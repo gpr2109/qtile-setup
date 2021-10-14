@@ -1,5 +1,5 @@
-#!/bin/sh
+#!/usr/bin/bash
 
 hsetroot -solid "#7AA2F7" &
-bash ~/git/qtile-setup/pipewire.sh &
+bash ~/.config/qtile/pipewire.sh &
 

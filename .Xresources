@@ -41,6 +41,8 @@
 
 *.font: xft:JetBrains Mono:style=Regular:size=9
 
+xterm*BorderWidth: 10
+
 URxvt*scrollBar: false
 
 XTerm*transparent: true
