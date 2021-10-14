@@ -41,7 +41,7 @@
 
 *.font: xft:JetBrains Mono:style=Regular:size=9
 
-rofi.hide-scrollbar: true
+URxvt*scrollBar: false
 
 XTerm*transparent: true
 xterm*VT100.Translations: #override \

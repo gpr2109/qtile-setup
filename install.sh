@@ -7,3 +7,4 @@ ln -s $CLONE_DIR/qtile ~/.config/ &
 ln -s $CLONE_DIR/macchina ~/.config/ &
 ln -s $CLONE_DIR/.Xresources ~/ &
 ln -s $CLONE_DIR/sx ~/.config/ &
+ln -s $CLONE_DIR/rofi ~/.config/ &

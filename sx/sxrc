@@ -3,4 +3,4 @@
 xbacklight -set 10 &
 export MOZ_X11_EGL=1 &
 xrdb ~/.Xresources &
-qtile start
+dbus-launch qtile start
