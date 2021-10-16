@@ -39,7 +39,7 @@
 *color7: #acb0d0
 *color15: #acb0d0
 
-*.font: xft:JetBrains Mono:style=Regular:size=9
+*font: xft:DejaVu Sans Mono:style=Regular:size=10
 
 xterm*BorderWidth: 10
 

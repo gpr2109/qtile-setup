@@ -8,6 +8,7 @@ if exists('skip_defaults_vim')
 endif
 
 call plug#begin('~/.vim/plugged')
+  Plug 'itchyny/lightline.vim'
   Plug 'ghifarit53/tokyonight-vim'
 call plug#end()
 
@@ -91,3 +92,14 @@ let g:tokyonight_enable_italic = 1
 colorscheme tokyonight
 
 set number
+
+set laststatus=2
+
+if !has('gui_running')
+  set t_Co=256
+endif
+
+let g:lightline = {
+      \ 'colorscheme': 'tokyonight',
+      \ }
+

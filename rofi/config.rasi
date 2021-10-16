@@ -1,7 +1,7 @@
 configuration{
     modi: "drun";
     lines: 5;
-    font: "Mononoki Nerd 12";
+    font: "DejaVu Sans 12";
     show-icons: true;
     icon-theme: "Oranchelo";
     terminal: "xterm";
@@ -23,18 +23,18 @@ element-text, element-icon {
 * {
     dark-black: #4e5173;
     bg-col:  #1a1b26;
-    border-col: #7aa2f7;
+    border-col: #7aabf7;
     selected-col: #4e5173;
     blue: #7aa2f7;
     fg-col: #acb0d0;
-    fg-col2: #7aa2f7;
+    fg-col2: #ffffff;
     width: 600;
 }
 
 window {
     padding: 20px;
     height: 360px;
-    border: 0px;
+    border: 2px;
     border-color: @border-col;
     background-color: @bg-col;
 }

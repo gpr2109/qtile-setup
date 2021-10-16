@@ -1,6 +1,13 @@
-#/usr/bin/zsh
+#/usr/bin/sh
 
+# My distribution doesn't save brightness by default
 xbacklight -set 10 &
+
+# Environment variable for hardware acceleration in firefox
 export MOZ_X11_EGL=1 &
+
+# sx doesn't load Xresources by default, so I have to do it manually
 xrdb ~/.Xresources &
+
+# Launches Qtile
 dbus-launch qtile start
